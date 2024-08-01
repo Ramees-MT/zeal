@@ -117,6 +117,9 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
               ],
             ),
             SizedBox(height: 16),
+
+
+            
             Expanded(
               child: ListView.builder(
                 itemCount: Admin[widget.userindex!]['location'].length,
